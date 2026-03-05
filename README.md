@@ -161,11 +161,11 @@ http://localhost:8080/api/auth/github
 
 
 
-# Running the Application
+## Running the Application
 
 # Clone the Repository
-```
 Clone the project from GitHub:
+```
 git clone https://github.com/23MH1A05M8/Multi-Provider-OAuth-2.0-Authentication-Service-with-JWT-and-RBAC.git
 ```
 
@@ -484,6 +484,7 @@ password: password123
 ```
 
 ---
+
 
 
 
