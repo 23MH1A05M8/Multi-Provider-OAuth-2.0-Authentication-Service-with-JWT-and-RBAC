@@ -115,13 +115,13 @@ To enable OAuth login, create OAuth applications in the respective developer con
 ## Google OAuth Setup
 
 1. Go to Google Cloud Console  
-https://console.cloud.google.com/
+   https://console.cloud.google.com/
 
 2. Create a new OAuth Client ID.
 
 3. Set the authorized redirect URI:
 
-http://localhost:8080/api/auth/google/callback
+   http://localhost:8080/api/auth/google/callback
 
 4. Add the credentials to `.env`:
 
@@ -135,13 +135,13 @@ GOOGLE_CLIENT_SECRET=your_google_client_secret
 ## GitHub OAuth Setup
 
 1. Go to GitHub Developer Settings  
-https://github.com/settings/developers
+   https://github.com/settings/developers
 
 2. Create a new OAuth App.
 
 3. Set the authorization callback URL:
 
-http://localhost:8080/api/auth/github/callback
+   http://localhost:8080/api/auth/github/callback
 
 4. Add the credentials to `.env`:
 
@@ -459,16 +459,17 @@ These credentials are also defined in `submission.json`.
 Admin:
 
 ```
-Email: admin@example.com
-Password: AdminPassword123!
+email: admin@example.com
+password: AdminPassword123!
 ```
 
 Regular user:
 
 ```
-Email: john@example.com
-Password: password123
+email: john@example.com
+password: password123
 ```
 
 ---
+
 
