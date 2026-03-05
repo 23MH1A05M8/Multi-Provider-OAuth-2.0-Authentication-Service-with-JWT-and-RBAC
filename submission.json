@@ -1,0 +1,12 @@
+{
+ "testCredentials": {
+  "adminUser": {
+   "email": "admin@example.com",
+   "password": "AdminPassword123!"
+  },
+  "regularUser": {
+   "email": "john@example.com",
+   "password": "password123"
+  }
+ }
+}
